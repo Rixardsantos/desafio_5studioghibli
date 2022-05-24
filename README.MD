@@ -8,5 +8,5 @@
   <img src="./github/desktop.png">
   <h2>
 
-<p>Iuri Silva @iuricode
+<p>@iuricode
 <a href="https://figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=5854%3A2">Desafio 05-Studio Ghibli</a></p>
