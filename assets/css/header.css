@@ -1,0 +1,20 @@
+.cabecalho {
+  max-width: 1200px;
+  padding: 40px 0 0;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cabecalho img {
+  display: block;
+  max-width: 100%;
+}
+
+.navegacao__item {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
