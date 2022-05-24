@@ -1,0 +1,17 @@
+@media (max-width: 400px) {
+  .principal {
+    grid-template-columns: 50%;
+  }
+
+  .principal__conteudo h1 {
+    font-size: 3.5rem;
+  }
+
+  .principal__conteudo p {
+    font-size: 0.875rem;
+  }
+
+  .btn__trailer {
+    display: none;
+  }
+}

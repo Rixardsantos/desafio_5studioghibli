@@ -2,6 +2,8 @@
   --bg: linear-gradient(154.76deg, #628e75 3%, #1a4855 84.12%);
   --btn: #658e76;
   --color: #f9f9f9;
+  --hover: #dd8998;
+  --hover2: #2b1b51;
 }
 
 * {
