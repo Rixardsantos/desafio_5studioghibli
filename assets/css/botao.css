@@ -1,0 +1,54 @@
+.btn__box {
+  margin-top: 20px;
+  display: flex;
+  column-gap: 30px;
+  justify-content: flex-start;
+}
+
+.cta {
+  font: 500 1rem/1.8 "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 8px 40px;
+  background-color: var(--btn);
+  position: relative;
+  transform: skewX(-15deg); /* a propriedade q eu falei pra vc */
+}
+
+.cta::before {
+  content: "";
+  left: 20px;
+  width: 14px;
+  height: 18px;
+  background-image: url(../img/play.svg);
+  position: absolute;
+  transform: skewX(15deg);
+}
+
+.cta:hover {
+  background-color: var(--hover2);
+}
+
+.cta__secundario {
+  font: 500 1rem/1.8 "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 8px 40px;
+  border: 2px solid var(--btn);
+  transform: skewX(-15deg); /* a propriedade q eu falei pra vc */
+}
+
+.cta__secundario:hover {
+  background-color: var(--hover2);
+}
+
+span {
+  text-transform: uppercase;
+  transform: skewX(15deg);
+}
+
+@media (max-width: 400px) {
+  .cta__secundario {
+    display: none;
+  }
+}

@@ -18,3 +18,16 @@
   flex-wrap: wrap;
   gap: 40px;
 }
+
+.navegacao__item img:hover {
+  color: var(--hover2);
+}
+
+@media (max-width: 400px) {
+  .cabecalho {
+    padding: 20px 20px;
+  }
+  .navegacao__item {
+    gap: 20px;
+  }
+}

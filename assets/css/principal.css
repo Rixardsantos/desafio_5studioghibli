@@ -13,48 +13,27 @@
 }
 
 .principal__conteudo h1 {
-  line-height: 4.625rem;
+  font: 900 4.25rem/60px "Poppins", sans-serif;
   text-transform: uppercase;
-  font-size: 4.25rem;
-  font-weight: 900;
   margin-top: 15px;
 }
 
 .principal__conteudo p {
-  font-weight: 400;
-  font-size: 1rem;
+  font: 400 1rem/1.8 "Poppins", sans-serif;
   margin-top: 25px;
 }
 
-.btn {
-  font-weight: 500;
-  font-size: 1rem;
-  margin-top: 2.875rem;
-  text-transform: uppercase;
-}
-
-.btn__agora:hover {
-  background-color: var(--hover2);
-}
-
-.btn__agora {
-  box-sizing: border-box;
-  display: inline-block;
-  padding: 8px 40px;
-  background-color: var(--btn);
-}
-
-/* .btn__agora::before {
-  content: "";
-  display: block;
-  width: 20px;
-  height: 20px;
-  background: url(../img/play.svg) no-repeat center;
-} */
-
-.btn__trailer {
-  display: inline-block;
-  padding: 8px 40px;
-  border: 2px solid var(--btn);
-  border-radius: 100px 0px;
+@media (max-width: 400px) {
+  .principal {
+    padding: 20px 20px;
+    grid-template-columns: 1fr;
+  }
+  .principal__conteudo h2 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+  }
+  .principal__conteudo h1 {
+    max-width: 10ch;
+  }
 }
